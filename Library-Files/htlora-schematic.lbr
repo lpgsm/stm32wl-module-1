@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>HTLoRa</description>
+<packages>
+<package name="LGA-HTLoRa">
+<smd name="1" x="-5.55" y="4.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="2" x="-5.55" y="3.6" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="3" x="-5.55" y="2.8" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="4" x="-5.55" y="2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="5" x="-5.55" y="1.2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="6" x="-5.55" y="0.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="7" x="-5.55" y="-0.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="8" x="-5.55" y="-1.2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="9" x="-5.55" y="-2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="10" x="-5.55" y="-2.8" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="11" x="-5.55" y="-3.6" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="12" x="-5.55" y="-4.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="13" x="-4.4" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="14" x="-3.6" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="15" x="-2.8" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="16" x="-2" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="17" x="-1.2" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="18" x="-0.4" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="19" x="0.4" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="20" x="1.2" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="21" x="2" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="22" x="2.8" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="23" x="3.6" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="24" x="4.4" y="-5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="25" x="5.55" y="-4.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="26" x="5.55" y="-3.6" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="27" x="5.55" y="-2.8" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="28" x="5.55" y="-2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="29" x="5.55" y="-1.2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="30" x="5.55" y="-0.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="31" x="5.55" y="0.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="32" x="5.55" y="1.2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="33" x="5.55" y="2" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="34" x="5.55" y="2.8" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="35" x="5.55" y="3.6" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="36" x="5.55" y="4.4" layer="1" dx="0.5" dy="1" rot="R90" stop="yes" cream="yes" thermals="no"/>
+<smd name="37" x="4.4" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="38" x="3.6" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="39" x="2.8" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="40" x="2" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="41" x="1.2" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="42" x="0.4" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="43" x="-0.4" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="44" x="-1.2" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="45" x="-2" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="46" x="-2.8" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="47" x="-3.6" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="48" x="-4.4" y="5.1" layer="1" dx="0.5" dy="1" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="49" x="-2.55" y="2.5" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="50" x="-2.55" y="0" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="51" x="-2.55" y="-2.5" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="56" x="0" y="2.5" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="57" x="0" y="0" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="52" x="0" y="-2.5" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="55" x="2.55" y="2.5" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="54" x="2.55" y="0" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<smd name="53" x="2.55" y="-2.5" layer="1" dx="1.6" dy="1.6" roundness="100" rot="R0" stop="yes" cream="yes" thermals="no"/>
+<wire layer="21" width="0.25" x1="-4.8" y1="4.399" x2="4.8" y2="4.399"/>
+<wire layer="21" width="0.25" x1="4.8" y1="4.399" x2="4.8" y2="-4.4"/>
+<wire layer="21" width="0.25" x1="4.8" y1="-4.4" x2="-4.8" y2="-4.4"/>
+<wire layer="21" width="0.25" x1="-4.8" y1="-4.4" x2="-4.8" y2="4.399"/>
+<polygon layer="21" width="0.25">
+<vertex x="-5.59" y="6.205"/>
+<vertex x="-5.615" y="6.36"/>
+<vertex x="-5.686" y="6.5"/>
+<vertex x="-5.798" y="6.611"/>
+<vertex x="-5.938" y="6.683"/>
+<vertex x="-6.094" y="6.707"/>
+<vertex x="-6.249" y="6.683"/>
+<vertex x="-6.39" y="6.611"/>
+<vertex x="-6.501" y="6.5"/>
+<vertex x="-6.572" y="6.36"/>
+<vertex x="-6.597" y="6.205"/>
+<vertex x="-6.572" y="6.049"/>
+<vertex x="-6.501" y="5.909"/>
+<vertex x="-6.39" y="5.798"/>
+<vertex x="-6.249" y="5.726"/>
+<vertex x="-6.094" y="5.702"/>
+<vertex x="-5.938" y="5.726"/>
+<vertex x="-5.798" y="5.798"/>
+<vertex x="-5.686" y="5.909"/>
+<vertex x="-5.615" y="6.049"/>
+</polygon>
+<rectangle x1="-4.8" y1="4.399" x2="4.8" y2="-4.4" layer="41" rot="R0"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HTLORA-MODULE">
+<wire layer="94" width="0.25" x1="-44" y1="44" x2="44" y2="44"/>
+<wire layer="94" width="0.25" x1="44" y1="44" x2="44" y2="-44"/>
+<wire layer="94" width="0.25" x1="44" y1="-44" x2="-44" y2="-44"/>
+<wire layer="94" width="0.25" x1="-44" y1="-44" x2="-44" y2="44"/>
+<pin name="PA11" visible="pin" length="short" direction="io" rot="R270" x="12" y="46.54"/>
+<pin name="PA12" visible="pin" length="short" direction="io" rot="R270" x="8" y="46.54"/>
+<pin name="GND@1" visible="pin" length="short" direction="pwr" rot="R270" x="4" y="46.54"/>
+<pin name="Vdd_PABOOST" visible="pin" length="short" direction="pwr" rot="R270" x="0" y="46.54"/>
+<pin name="Vdd" visible="pin" length="short" direction="pwr" rot="R270" x="-4" y="46.54"/>
+<pin name="VREF+" visible="pin" length="short" direction="pwr" rot="R270" x="-8" y="46.54"/>
+<pin name="GND@2" visible="pin" length="short" direction="pwr" rot="R270" x="-12" y="46.54"/>
+<pin name="PA13" visible="pin" length="short" direction="io" rot="R270" x="-16" y="46.54"/>
+<pin name="PA14" visible="pin" length="short" direction="io" rot="R270" x="-20" y="46.54"/>
+<pin name="PA15" visible="pin" length="short" direction="io" rot="R270" x="-24" y="46.54"/>
+<pin name="PB3" visible="pin" length="short" direction="io" rot="R270" x="-28" y="46.54"/>
+<pin name="V_FBSMPS" visible="pin" length="short" direction="io" rot="R270" x="-32" y="46.54"/>
+<pin name="V_LXSMPS" visible="pin" length="short" direction="io" x="-46.54" y="22"/>
+<pin name="PB4" visible="pin" length="short" direction="io" x="-46.54" y="18"/>
+<pin name="PB5" visible="pin" length="short" direction="io" x="-46.54" y="14"/>
+<pin name="PB6" visible="pin" length="short" direction="io" x="-46.54" y="10"/>
+<pin name="PB7" visible="pin" length="short" direction="io" x="-46.54" y="6"/>
+<pin name="PA8" visible="pin" length="short" direction="io" x="-46.54" y="2"/>
+<pin name="PA7" visible="pin" length="short" direction="io" x="-46.54" y="-2"/>
+<pin name="PA6" visible="pin" length="short" direction="io" x="-46.54" y="-6"/>
+<pin name="PA5" visible="pin" length="short" direction="io" x="-46.54" y="-10"/>
+<pin name="PA4" visible="pin" length="short" direction="io" x="-46.54" y="-14"/>
+<pin name="PA3" visible="pin" length="short" direction="io" x="-46.54" y="-18"/>
+<pin name="PA2" visible="pin" length="short" direction="io" x="-46.54" y="-22"/>
+<pin name="GND@3" visible="pin" length="short" direction="pwr" rot="R90" x="-22" y="-46.54"/>
+<pin name="ANT" visible="pin" length="short" direction="pas" rot="R90" x="-18" y="-46.54"/>
+<pin name="GND@4" visible="pin" length="short" direction="pwr" rot="R90" x="-14" y="-46.54"/>
+<pin name="DBG_CRF1" visible="pin" length="short" direction="io" rot="R90" x="-10" y="-46.54"/>
+<pin name="DBG_CRF2" visible="pin" length="short" direction="io" rot="R90" x="-6" y="-46.54"/>
+<pin name="DBG_CRF3" visible="pin" length="short" direction="io" rot="R90" x="-2" y="-46.54"/>
+<pin name="Unused/GND@1" visible="pin" length="short" direction="io" rot="R90" x="2" y="-46.54"/>
+<pin name="BOOT0" visible="pin" length="short" direction="io" rot="R90" x="6" y="-46.54"/>
+<pin name="PB8" visible="pin" length="short" direction="io" rot="R90" x="10" y="-46.54"/>
+<pin name="PB9" visible="pin" length="short" direction="io" rot="R90" x="14" y="-46.54"/>
+<pin name="PB10" visible="pin" length="short" direction="io" rot="R90" x="18" y="-46.54"/>
+<pin name="PB11" visible="pin" length="short" direction="io" rot="R90" x="22" y="-46.54"/>
+<pin name="PB12" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-32"/>
+<pin name="PB13" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-28"/>
+<pin name="PB14" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-24"/>
+<pin name="PB15" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-20"/>
+<pin name="PA0/WKUP1" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-16"/>
+<pin name="PC13/WKUP2/RTCOUT" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-12"/>
+<pin name="Unused/GND@2" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="-8"/>
+<pin name="GND@5" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="-4"/>
+<pin name="PA9" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="0"/>
+<pin name="PA10" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="4"/>
+<pin name="TCXO_OUT" visible="pin" length="short" direction="io" rot="R180" x="46.54" y="8"/>
+<pin name="MCU_nRST" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="12"/>
+<pin name="GND@6" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="18"/>
+<pin name="GND@7" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="22"/>
+<pin name="GND@8" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="26"/>
+<pin name="GND@9" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="30"/>
+<pin name="GND@10" visible="pin" length="short" direction="pwr" rot="R180" x="46.54" y="34"/>
+<pin name="GND@11" visible="pin" length="short" direction="pwr" rot="R270" x="32" y="46.54"/>
+<pin name="GND@12" visible="pin" length="short" direction="pwr" rot="R270" x="28" y="46.54"/>
+<pin name="GND@13" visible="pin" length="short" direction="pwr" rot="R270" x="24" y="46.54"/>
+<pin name="GND@14" visible="pin" length="short" direction="pwr" rot="R270" x="20" y="46.54"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HTLORA-MODULE" prefix="U">
+<gates>
+<gate name="PART_1" symbol="HTLORA-MODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-HTLoRa">
+<connects>
+<connect gate="PART_1" pin="PA11" pad="1"/>
+<connect gate="PART_1" pin="PA12" pad="2"/>
+<connect gate="PART_1" pin="GND@1" pad="3"/>
+<connect gate="PART_1" pin="Vdd_PABOOST" pad="4"/>
+<connect gate="PART_1" pin="Vdd" pad="5"/>
+<connect gate="PART_1" pin="VREF+" pad="6"/>
+<connect gate="PART_1" pin="GND@2" pad="7"/>
+<connect gate="PART_1" pin="PA13" pad="8"/>
+<connect gate="PART_1" pin="PA14" pad="9"/>
+<connect gate="PART_1" pin="PA15" pad="10"/>
+<connect gate="PART_1" pin="PB3" pad="11"/>
+<connect gate="PART_1" pin="V_FBSMPS" pad="12"/>
+<connect gate="PART_1" pin="V_LXSMPS" pad="13"/>
+<connect gate="PART_1" pin="PB4" pad="14"/>
+<connect gate="PART_1" pin="PB5" pad="15"/>
+<connect gate="PART_1" pin="PB6" pad="16"/>
+<connect gate="PART_1" pin="PB7" pad="17"/>
+<connect gate="PART_1" pin="PA8" pad="18"/>
+<connect gate="PART_1" pin="PA7" pad="19"/>
+<connect gate="PART_1" pin="PA6" pad="20"/>
+<connect gate="PART_1" pin="PA5" pad="21"/>
+<connect gate="PART_1" pin="PA4" pad="22"/>
+<connect gate="PART_1" pin="PA3" pad="23"/>
+<connect gate="PART_1" pin="PA2" pad="24"/>
+<connect gate="PART_1" pin="GND@3" pad="25"/>
+<connect gate="PART_1" pin="ANT" pad="26"/>
+<connect gate="PART_1" pin="GND@4" pad="27"/>
+<connect gate="PART_1" pin="DBG_CRF1" pad="28"/>
+<connect gate="PART_1" pin="DBG_CRF2" pad="29"/>
+<connect gate="PART_1" pin="DBG_CRF3" pad="30"/>
+<connect gate="PART_1" pin="Unused/GND@1" pad="31"/>
+<connect gate="PART_1" pin="BOOT0" pad="32"/>
+<connect gate="PART_1" pin="PB8" pad="33"/>
+<connect gate="PART_1" pin="PB9" pad="34"/>
+<connect gate="PART_1" pin="PB10" pad="35"/>
+<connect gate="PART_1" pin="PB11" pad="36"/>
+<connect gate="PART_1" pin="PB12" pad="37"/>
+<connect gate="PART_1" pin="PB13" pad="38"/>
+<connect gate="PART_1" pin="PB14" pad="39"/>
+<connect gate="PART_1" pin="PB15" pad="40"/>
+<connect gate="PART_1" pin="PA0/WKUP1" pad="41"/>
+<connect gate="PART_1" pin="PC13/WKUP2/RTCOUT" pad="42"/>
+<connect gate="PART_1" pin="Unused/GND@2" pad="43"/>
+<connect gate="PART_1" pin="GND@5" pad="44"/>
+<connect gate="PART_1" pin="PA9" pad="45"/>
+<connect gate="PART_1" pin="PA10" pad="46"/>
+<connect gate="PART_1" pin="TCXO_OUT" pad="47"/>
+<connect gate="PART_1" pin="MCU_nRST" pad="48"/>
+<connect gate="PART_1" pin="GND@6" pad="49"/>
+<connect gate="PART_1" pin="GND@7" pad="50"/>
+<connect gate="PART_1" pin="GND@8" pad="51"/>
+<connect gate="PART_1" pin="GND@9" pad="52"/>
+<connect gate="PART_1" pin="GND@10" pad="53"/>
+<connect gate="PART_1" pin="GND@11" pad="54"/>
+<connect gate="PART_1" pin="GND@12" pad="55"/>
+<connect gate="PART_1" pin="GND@13" pad="56"/>
+<connect gate="PART_1" pin="GND@14" pad="57"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
